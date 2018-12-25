@@ -1,0 +1,237 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR	Makefile	6;"	m
+BUF_SIZE	epoll.h	4;"	d
+CC	Makefile	5;"	m
+CFLAGS	Makefile	7;"	m
+CONN_AUTH_REAUTH	common.h	40;"	e	enum:MSG_TYPE
+CONN_AUTH_REQ	common.h	38;"	e	enum:MSG_TYPE
+CONN_AUTH_RESP	common.h	39;"	e	enum:MSG_TYPE
+CONN_CLOSE	common.h	42;"	e	enum:MSG_TYPE
+DATA_LEN	common.h	35;"	d
+DEV_PORT	common.h	30;"	d
+EXIST	common.h	52;"	d
+FLAGS	Makefile	8;"	m
+HOST	dev.c	35;"	d	file:
+HOST	user.c	35;"	d	file:
+INITIAL_SIZE	hashmap.c	10;"	d	file:
+IP6HOST	dev.c	36;"	d	file:
+IP6HOST	user.c	36;"	d	file:
+IP_LEN	common.h	33;"	d
+KEY_MAX_LENGTH	hashmap.h	81;"	d
+LD	Makefile	10;"	m
+LD_MATH	Makefile	12;"	m
+LD_THREAD	Makefile	11;"	m
+MAP_FULL	hashmap.h	13;"	d
+MAP_MISSING	hashmap.h	12;"	d
+MAP_OK	hashmap.h	15;"	d
+MAP_OMEM	hashmap.h	14;"	d
+MAX_CHAIN_LENGTH	hashmap.c	11;"	d	file:
+MAX_EVENT_NUMBER	epoll.h	5;"	d
+MSG	common.h	78;"	t	typeref:struct:msg_info
+MSG_LEN	common.h	80;"	d
+MSG_TYPE	common.h	37;"	g
+NAME_LEN	common.h	34;"	d
+NODATA	cJSON.h	153;"	d
+NODE	common.h	68;"	t	typeref:struct:node_info
+NODE_LEN	common.h	69;"	d
+NOTYPE	cJSON.h	152;"	d
+NO_EXIST	common.h	50;"	d
+PFany	hashmap.h	27;"	t
+PING_REQ	common.h	43;"	e	enum:MSG_TYPE
+PING_RESP	common.h	44;"	e	enum:MSG_TYPE
+PORT	dev.c	37;"	d	file:
+PORT	user.c	37;"	d	file:
+PUSH_DATA	common.h	41;"	e	enum:MSG_TYPE
+REG	common.h	49;"	d
+REG_FORMAT	common.h	47;"	d
+Register	server.c	95;"	f	file:
+UNREG	common.h	51;"	d
+USER_PORT	common.h	31;"	d
+_EPOLL_H	epoll.h	2;"	d
+_LOCAL_COMMON_H	common.h	2;"	d
+__HASHMAP_H__	hashmap.h	10;"	d
+_fds	epoll.h	7;"	s
+_hashmap_element	hashmap.c	14;"	s	file:
+_hashmap_map	hashmap.c	22;"	s	file:
+add_fd	epoll.c	20;"	f
+add_oneshot_fd	epoll.c	33;"	f
+any_t	hashmap.h	21;"	t
+b	common.h	84;"	m	struct:buf
+buf	common.h	82;"	s
+buffer	cJSON.c	120;"	m	struct:__anon1	file:
+cJSON	cJSON.h	44;"	s
+cJSON	cJSON.h	55;"	t	typeref:struct:cJSON
+cJSON_AddBoolToObject	cJSON.h	137;"	d
+cJSON_AddFalseToObject	cJSON.h	136;"	d
+cJSON_AddItemReferenceToArray	cJSON.c	681;"	f
+cJSON_AddItemReferenceToObject	cJSON.c	682;"	f
+cJSON_AddItemToArray	cJSON.c	678;"	f
+cJSON_AddItemToObject	cJSON.c	679;"	f
+cJSON_AddItemToObjectCS	cJSON.c	680;"	f
+cJSON_AddNullToObject	cJSON.h	134;"	d
+cJSON_AddNumberToObject	cJSON.h	138;"	d
+cJSON_AddStringToObject	cJSON.h	139;"	d
+cJSON_AddTrueToObject	cJSON.h	135;"	d
+cJSON_Array	cJSON.h	37;"	d
+cJSON_CreateArray	cJSON.c	705;"	f
+cJSON_CreateBool	cJSON.c	702;"	f
+cJSON_CreateDoubleArray	cJSON.c	711;"	f
+cJSON_CreateFalse	cJSON.c	701;"	f
+cJSON_CreateFloatArray	cJSON.c	710;"	f
+cJSON_CreateIntArray	cJSON.c	709;"	f
+cJSON_CreateNull	cJSON.c	699;"	f
+cJSON_CreateNumber	cJSON.c	703;"	f
+cJSON_CreateObject	cJSON.c	706;"	f
+cJSON_CreateString	cJSON.c	704;"	f
+cJSON_CreateStringArray	cJSON.c	712;"	f
+cJSON_CreateTrue	cJSON.c	700;"	f
+cJSON_Delete	cJSON.c	82;"	f
+cJSON_DeleteItemFromArray	cJSON.c	686;"	f
+cJSON_DeleteItemFromObject	cJSON.c	688;"	f
+cJSON_DetachItemFromArray	cJSON.c	684;"	f
+cJSON_DetachItemFromObject	cJSON.c	687;"	f
+cJSON_Duplicate	cJSON.c	715;"	f
+cJSON_False	cJSON.h	32;"	d
+cJSON_GetArrayItem	cJSON.c	664;"	f
+cJSON_GetArraySize	cJSON.c	662;"	f
+cJSON_GetErrorPtr	cJSON.c	38;"	f
+cJSON_GetObjectItem	cJSON.c	670;"	f
+cJSON_Hooks	cJSON.h	57;"	s
+cJSON_Hooks	cJSON.h	60;"	t	typeref:struct:cJSON_Hooks
+cJSON_InitHooks	cJSON.c	61;"	f
+cJSON_InsertItemInArray	cJSON.c	691;"	f
+cJSON_IsReference	cJSON.h	40;"	d
+cJSON_Minify	cJSON.c	742;"	f
+cJSON_NULL	cJSON.h	34;"	d
+cJSON_New_Item	cJSON.c	74;"	f	file:
+cJSON_Number	cJSON.h	35;"	d
+cJSON_Object	cJSON.h	38;"	d
+cJSON_Parse	cJSON.c	340;"	f
+cJSON_ParseWithOpts	cJSON.c	324;"	f
+cJSON_Print	cJSON.c	343;"	f
+cJSON_PrintBuffered	cJSON.c	346;"	f
+cJSON_PrintUnformatted	cJSON.c	344;"	f
+cJSON_ReplaceItemInArray	cJSON.c	693;"	f
+cJSON_ReplaceItemInObject	cJSON.c	696;"	f
+cJSON_SetIntValue	cJSON.h	142;"	d
+cJSON_SetNumberValue	cJSON.h	143;"	d
+cJSON_String	cJSON.h	36;"	d
+cJSON_StringIsConst	cJSON.h	41;"	d
+cJSON_True	cJSON.h	33;"	d
+cJSON__h	cJSON.h	24;"	d
+cJSON_free	cJSON.c	48;"	v	file:
+cJSON_malloc	cJSON.c	47;"	v	file:
+cJSON_strcasecmp	cJSON.c	40;"	f	file:
+cJSON_strdup	cJSON.c	50;"	f	file:
+check_if_register	server.c	167;"	f
+child	cJSON.h	46;"	m	struct:cJSON	typeref:struct:cJSON::cJSON
+connect_to_server	dev.c	39;"	f
+connect_to_server	user.c	39;"	f
+crc32	hashmap.c	149;"	f
+crc32_tab	hashmap.c	92;"	v	file:
+create_reference	cJSON.c	675;"	f	file:
+data	common.h	77;"	m	struct:msg_info
+data	hashmap.c	17;"	m	struct:_hashmap_element	file:
+data	hashmap.c	25;"	m	struct:_hashmap_map	file:
+del_fd	epoll.c	50;"	f
+dev_data_receiver	server.c	355;"	f
+devmap	server.c	6;"	v
+do_analysis	cJSON.c	759;"	f
+do_transfer	server.c	185;"	f	file:
+e	common.h	84;"	m	struct:buf
+ensure	cJSON.c	122;"	f	file:
+ep	cJSON.c	36;"	v	file:
+epollfd	epoll.h	9;"	m	struct:_fds
+et	epoll.c	91;"	f
+fd	common.h	65;"	m	struct:node_info
+fd	common.h	72;"	m	struct:msg_info
+fd_s	common.h	64;"	m	struct:node_info
+fdmap	server.c	6;"	v
+fds	epoll.h	12;"	t	typeref:struct:_fds
+firstByteMark	cJSON.c	192;"	v	file:
+free_client	server.c	207;"	f
+free_fn	cJSON.h	59;"	m	struct:cJSON_Hooks
+hash_conflict_remove	server.c	90;"	f	file:
+hash_free	server.c	9;"	f
+hashmap_check	server.c	79;"	f	file:
+hashmap_element	hashmap.c	18;"	t	typeref:struct:_hashmap_element	file:
+hashmap_free	hashmap.c	386;"	f
+hashmap_get	hashmap.c	289;"	f
+hashmap_hash	hashmap.c	191;"	f
+hashmap_hash_int	hashmap.c	167;"	f
+hashmap_iterate	hashmap.c	325;"	f
+hashmap_length	hashmap.c	393;"	f
+hashmap_map	hashmap.c	26;"	t	typeref:struct:_hashmap_map	file:
+hashmap_new	hashmap.c	31;"	f
+hashmap_put	hashmap.c	261;"	f
+hashmap_rehash	hashmap.c	221;"	f
+hashmap_remove	hashmap.c	351;"	f
+in_use	hashmap.c	16;"	m	struct:_hashmap_element	file:
+init	server.c	444;"	f
+is_user	common.h	67;"	m	struct:node_info
+is_user	common.h	73;"	m	struct:msg_info
+key	hashmap.c	15;"	m	struct:_hashmap_element	file:
+length	cJSON.c	120;"	m	struct:__anon1	file:
+list_for_node	common.h	58;"	d
+listen_tcp	server.c	16;"	f	file:
+lt	epoll.c	59;"	f
+main	dev.c	74;"	f
+main	server.c	465;"	f
+main	user.c	73;"	f
+malloc_fn	cJSON.h	58;"	m	struct:cJSON_Hooks
+map_t	hashmap.h	34;"	t
+max	common.h	92;"	d
+min	common.h	88;"	d
+module	common.h	63;"	m	struct:node_info
+module	common.h	76;"	m	struct:msg_info
+msg_info	common.h	71;"	s
+mutex_lock	server.c	7;"	v
+name	common.h	62;"	m	struct:node_info
+name	common.h	75;"	m	struct:msg_info
+next	cJSON.h	45;"	m	struct:cJSON	typeref:struct:cJSON::cJSON
+node_info	common.h	61;"	s
+offset	cJSON.c	120;"	m	struct:__anon1	file:
+parse_array	cJSON.c	407;"	f	file:
+parse_hex4	cJSON.c	178;"	f	file:
+parse_number	cJSON.c	97;"	f	file:
+parse_object	cJSON.c	515;"	f	file:
+parse_string	cJSON.c	193;"	f	file:
+parse_value	cJSON.c	358;"	f	file:
+pow2gt	cJSON.c	118;"	f	file:
+prev	cJSON.h	45;"	m	struct:cJSON	typeref:struct:cJSON::
+print_array	cJSON.c	435;"	f	file:
+print_number	cJSON.c	148;"	f	file:
+print_object	cJSON.c	551;"	f	file:
+print_string	cJSON.c	310;"	f	file:
+print_string_ptr	cJSON.c	253;"	f	file:
+print_value	cJSON.c	373;"	f	file:
+printbuffer	cJSON.c	120;"	t	typeref:struct:__anon1	file:
+reset_oneshot	epoll.c	12;"	f
+setnonblocking	epoll.c	4;"	f
+signal_handle	server.c	460;"	f
+signal_int_handler	server.c	438;"	f
+size	hashmap.c	24;"	m	struct:_hashmap_map	file:
+skip	cJSON.c	321;"	f	file:
+sockfd	epoll.h	10;"	m	struct:_fds
+string	cJSON.h	54;"	m	struct:cJSON
+suffix_object	cJSON.c	673;"	f	file:
+table_size	hashmap.c	23;"	m	struct:_hashmap_map	file:
+to	common.h	66;"	m	struct:node_info
+type	cJSON.h	48;"	m	struct:cJSON
+type	common.h	74;"	m	struct:msg_info
+u16_t	common.h	55;"	t
+u32_t	common.h	56;"	t
+u8_t	common.h	54;"	t
+update	cJSON.c	139;"	f	file:
+user	epoll.h	11;"	m	struct:_fds
+user_data_receiver	server.c	396;"	f
+v	common.h	83;"	m	struct:buf
+valuedouble	cJSON.h	52;"	m	struct:cJSON
+valueint	cJSON.h	51;"	m	struct:cJSON
+valuestring	cJSON.h	50;"	m	struct:cJSON
+worker	server.c	230;"	f
